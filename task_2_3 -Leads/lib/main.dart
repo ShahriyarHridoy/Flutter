@@ -85,3 +85,45 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+/*class _MyHomePageState extends State<MyHomePage> {
+  int _page = 0;
+  GlobalKey _bottomNavigationKey = GlobalKey();
+  //GlobalKey<NavigatorState> _bottomNavigationKey = GlobalKey<NavigatorState>();
+
+  List<Widget> _listPages = [
+    Page1(),
+    Page2(),
+    Page3(),
+    Page4(),
+    Page5(),
+  ];
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+        bottomNavigationBar: CurvedNavigationBar(
+          key: _bottomNavigationKey,
+          index: 0,
+          height: 50.0,
+          items: <Widget>[
+            Icon(Icons.add, size: 30),
+            Icon(Icons.list, size: 30),
+            Icon(Icons.compare_arrows, size: 30),
+            Icon(Icons.call_split, size: 30),
+            Icon(Icons.perm_identity, size: 30),
+          ],
+          color: Colors.white,
+          buttonBackgroundColor: Colors.white,
+          backgroundColor: Colors.blueAccent,
+          animationCurve: Curves.easeInOut,
+          animationDuration: Duration(milliseconds: 600),
+          onTap: (index) {
+            //_bottomNavigationKey.currentState!.maybePop();
+            setState(() {
+              _page = index;
+            });
+          },
+        ),
+        body: _listPages[_page]);
+  }
+}*/

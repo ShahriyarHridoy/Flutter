@@ -49,20 +49,36 @@ class _Page1State extends State<Page1> with AutomaticKeepAliveClientMixin {
 }
 
 class ListViewPage extends StatelessWidget {
-  // const ListViewPage({Key key}) : super(key: key);
+  const ListViewPage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
-      appBar: new AppBar(
+      /*appBar: new AppBar(
         title: new Text("Infinite List"),
+      ),*/
+      body: CustomScrollView(
+        slivers: [
+          SliverAppBar(
+            floating: true,
+            pinned: false,
+            flexibleSpace: FlexibleSpaceBar(
+              title: Text('Animated AppBar'),
+            ),
+          ),
+          SliverList(delegate:
+              SliverChildBuilderDelegate((BuildContext context, int index) {
+            return ListTile(
+                leading: Text("$index"), title: Text("Number $index"));
+          }))
+        ],
       ),
-      body: ListView.builder(
+      /*body: ListView.builder(
         itemBuilder: (context, index) {
           return ListTile(
               leading: Text("$index"), title: Text("Number $index"));
         },
-      ),
+      ),*/
     );
   }
 }
