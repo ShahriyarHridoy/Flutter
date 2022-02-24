@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "F:\\Flutter_learn\\task_1 -Leads\\build\\path_provider\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-2\\files-2.1\\3f0e982339ff24e9e5cec28c56d30078\\core-1.1.0\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "F:\\Flutter_learn\\task_1 -Leads\\build\\path_provider\\intermediates\\res\\merged\\debug\\layout\\custom_dialog.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-2\\files-2.1\\3f0e982339ff24e9e5cec28c56d30078\\core-1.1.0\\res\\layout\\custom_dialog.xml"
+    },
+    {
+        "merged": "F:\\Flutter_learn\\task_1 -Leads\\build\\path_provider\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-2\\files-2.1\\3f0e982339ff24e9e5cec28c56d30078\\core-1.1.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "F:\\Flutter_learn\\task_1 -Leads\\build\\path_provider\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-2\\files-2.1\\3f0e982339ff24e9e5cec28c56d30078\\core-1.1.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "F:\\Flutter_learn\\task_1 -Leads\\build\\path_provider\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-2\\files-2.1\\3f0e982339ff24e9e5cec28c56d30078\\core-1.1.0\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "F:\\Flutter_learn\\task_1 -Leads\\build\\path_provider\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-2\\files-2.1\\3f0e982339ff24e9e5cec28c56d30078\\core-1.1.0\\res\\layout\\notification_action.xml"
+    }
+]
